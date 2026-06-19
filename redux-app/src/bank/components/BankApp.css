@@ -1,0 +1,33 @@
+
+
+/* Styles */
+body {
+    line-height: 1.4em;
+    color: #4d4d4d;
+   
+    margin: 0 auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+   
+    font-weight: 300;
+    text-align: center !important;
+    margin: auto !important;
+  }
+  h1{font-size:20px}
+  h2{background-color:lightgreen;font-size:18px}
+  
+  .blue {color:#5bb7db}
+  .green { color: #3c971b }
+  .red { color: #ff0000 }
+  input.small { width: 46px; }
+  
+  footer{
+    position: 'absolute';
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    margin-top: 50px;
+    text-align: 'center';
+  }
+  
