@@ -8,6 +8,8 @@ import ReducerDemo from './hooks/ReducerDemo';
 import Chat from './ai/Chat';
 import ContextDemo from './hooks/ContextDemo';
 import { ProductCount, ProductList, ProductProvider } from './hooks/Realcontext';
+import Button from './hoc/Button';
+import Hover from './hoc/Hover';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <ProductList />
         <ProductCount />
       </ProductProvider>
+      <Button/>
+      <Hover />
     </div>
   );
 }
